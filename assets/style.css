@@ -83,8 +83,10 @@ details p{font-size:14px;color:var(--muted);padding:2px 0 12px;line-height:1.8}
 .download h2{font-size:25px;max-width:400px;letter-spacing:-.8px}
 .download p{font-size:13px;color:var(--muted);margin-top:10px;max-width:400px}
 .stores{display:flex;gap:10px;margin-left:auto;flex-wrap:wrap}
-.store{border:1px solid #cbd4c8;padding:12px 20px;border-radius:12px;min-width:145px;font-size:14px;display:flex;flex-direction:column;text-decoration:none;min-height:65px}
-.store span{font-size:11px;color:var(--muted)}
+.store{border:1px solid #cbd4c8;padding:12px 20px;border-radius:12px;min-width:178px;font-size:14px;display:flex;align-items:center;gap:12px;text-decoration:none;min-height:65px}
+.store-icon{width:28px;height:28px;flex:none}
+.store-copy{display:flex;flex-direction:column;gap:1px}
+.store-copy>span{font-size:11px;color:var(--muted)}
 a.store:hover{border-color:var(--forest)}
 footer{border-top:1px solid var(--line);padding-block:40px 50px;display:grid;grid-template-columns:1fr 1fr;gap:50px}
 footer p{font-size:15px;margin:15px 0}
@@ -121,7 +123,7 @@ header,main,footer{width:calc(100% - 40px)}header{flex-wrap:wrap;gap:10px;paddin
 .payment{padding:26px 24px;gap:18px;align-items:flex-start;margin-bottom:45px}.payment-symbol{font-size:30px;line-height:1.1}.payment h2{font-size:20px}.payment p{font-size:13px}
 .market{grid-template-columns:1fr;padding:34px 27px;gap:36px}.market-intro{font-size:16px}.market-art{padding:10px 0 0}.package{width:165px}.package svg{height:120px}.market-art p{max-width:270px}
 .questions{grid-template-columns:1fr;gap:28px;padding-top:60px}.questions h2{max-width:100%}
-.download{gap:20px}.download>img{width:60px;height:60px;border-radius:15px}.download>div:not(.stores){flex:1;min-width:190px}.download h2{font-size:23px}.stores{margin:0;width:100%}.store{flex:1;padding:12px 16px;min-width:125px}
+.download{gap:20px}.download>img{width:60px;height:60px;border-radius:15px}.download>div:not(.stores){flex:1;min-width:190px}.download h2{font-size:23px}.stores{margin:0;width:100%}.store{flex:1;padding:12px 16px;min-width:160px}
 footer{grid-template-columns:1fr;gap:25px;padding-top:30px}footer nav{gap:0 20px}
 .reading{padding-block:45px 65px}.reading h1{font-size:37px;letter-spacing:-1.6px;overflow-wrap:anywhere}.notice{padding:24px}.document-list a{font-size:16px}
 }
